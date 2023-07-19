@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Print "_putchar" followed by a new line.
- * Description: You are not allowed to include standard libraries.
+ * main - Print "_putchar" and followed by a new line.
+ * Description: Don't  include standard libraries.
  * Return: 0
  */
 
