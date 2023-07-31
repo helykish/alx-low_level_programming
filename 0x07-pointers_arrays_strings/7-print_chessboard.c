@@ -2,9 +2,9 @@
 
 
 /**
- * print_chessboard - function that prints a chessboard
+ * print_chessboard - func prints chessboard
  * @a: size of 2D array
- * Return: none
+ * Return: 0
  */
 
 void print_chessboard(char (*a)[8])
