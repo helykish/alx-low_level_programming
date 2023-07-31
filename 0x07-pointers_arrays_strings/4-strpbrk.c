@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - function that searches a string for any of a set of bytes.
+ * _strpbrk - func searches string for any of byte a set.
  *
- * @s: string to receive
+ * @s: strng to receive
  * @accept: bytes to accept
  * Return: char
  */
