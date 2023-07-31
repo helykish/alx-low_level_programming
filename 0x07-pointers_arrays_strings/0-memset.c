@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _memset - function that fills memory with a constant byte.
+ * _memset - func dat fills memory with a constant byte.
  *
- * @s: mamory area to return
+ * @s: memory return
  * @b: constant byte
  * @n: size of bytes
  * Return: char
