@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_palindrome - check if a string is a palindrome
+ * is_palindrome - is string is a palindrome
  * @s: char array string
  * Return: 1 if palindrome, 0 if not
  */
@@ -18,7 +18,7 @@ int is_palindrome(char *s)
 }
 
 /**
- * get_length - gets length of string
+ * get_length - length of string
  * @s: string
  * Return: return length of string
  */
