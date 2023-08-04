@@ -2,10 +2,10 @@
 
 /**
  * main - Prints all arguments it receives.
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
+ * @argc: No. of arguments to the program.
+ * @argv: Array of pointers to the arg.
  *
- * Return: Always 0.
+ * Return: 0.
  */
 int main(int argc, char *argv[])
 {
