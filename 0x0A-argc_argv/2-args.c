@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints all arguments it receives.
- * @argc: The number of arguments supplied to the program.
+ * main - echo all arguments it receives.
+ * @argc: Only print one argument per line.
  * @argv: An array of pointers to the arguments.
  *
- * Return: Always 0.
+ * Return: 0.
  */
 int main(int argc, char *argv[])
 {
