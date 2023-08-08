@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * *create_array - creates an array of chars,
- * and initializes it with a specific char
- * @size: size of the array to create
+ * *create_array - an array var chars created,
+ * intiazition with a char
+ * @size: type of the array
  * @c: char to initialize the array c
  *
- * Return: pointer to the array (Success), NULL (Error)
+ * Return: pointer to the array (1), NULL (0)
  */
 char *create_array(unsigned int size, char c)
 {
