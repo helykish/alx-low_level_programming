@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - create a 2d integer grid using malloc.
- * Description: Each element of the grid should be initialized to 0.
- * @width: int size width
- * @height: int size height
- * Return: Pointer to new grid
+ * alloc_grid - second integer grid with malloc.
+ * Description: returns a pointer to a 2 dimensional array.
+ * @width: int width
+ * @height: int height
+ * Return: Return: Nothing
  */
 
 int **alloc_grid(int width, int height)
