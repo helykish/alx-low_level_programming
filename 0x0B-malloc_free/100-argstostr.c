@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * argstostr - concatenate all arguments of your program with newline
- * @ac: argument count
- * @av: double pointer to array of strings passed to main
- * Return: Null if fail, else return pointer to new string
+ * argstostr - concatenates all the arguments of a program
+ * @ac: argt counting 
+ * @av: double pointer strings passed to main
+ * Return: 0 if fail, else return pointer to new string
  */
 
 char *argstostr(int ac, char **av)
