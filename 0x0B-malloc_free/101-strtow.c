@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * count_word - helper function to count the number of words in a string
- * @s: string to evaluate
+ * count_word - splits a string into words
+ * @s: string to in action
  *
- * Return: number of words
+ * Return: return number of words
  */
 int count_word(char *s)
 {
@@ -28,8 +28,8 @@ int count_word(char *s)
 	return (w);
 }
 /**
- * **strtow - splits a string into words
- * @str: string to split
+ * **strtow - splits a string
+ * @str: to split
  *
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
