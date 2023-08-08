@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * free_grid - free up a 2d grid
- * @grid: double pointer 2d grid
+ * free_grid - frees a 2 dimensional grid
+ * @grid: pointer second grid
  * @height: height of grid
  */
 
