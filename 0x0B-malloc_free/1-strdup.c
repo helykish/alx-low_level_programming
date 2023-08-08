@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * _strdup - Duplicate a string using malloc
- * @str: string to duplicate
- * Return: Pointer to a the new duped string
+ * _strdup - function returns a pointer to allocated space in memory
+ * @str: stng to dupe
+ * Return: Pointer new duplicate string
  */
 
 char *_strdup(char *str)
