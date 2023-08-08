@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * argstostr - concatenates all the arguments of a program
- * @ac: argt counting 
+ * @ac: argt counting
  * @av: double pointer strings passed to main
  * Return: 0 if fail, else return pointer to new string
  */
