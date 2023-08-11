@@ -16,9 +16,9 @@ int _strlen(char *string)
 }
 /**
  * string_nconcat - concatenate s1 and n bytes of second string
- * @s1: first string 
- * @s2: second string 
- * @n: n bytes to concat from second string 
+ * @s1: first string
+ * @s2: second string
+ * @n: n bytes to concat from second string
  * Return: pointer to concat string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
