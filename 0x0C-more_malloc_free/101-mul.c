@@ -4,9 +4,9 @@
 
 
 /**
- * _print - moves a string one place to the left and prints the string
- * @str: string to move
- * @l: size of string
+ * _print - print string after moving string to the left
+ * @str: strn to move
+ * @l: length of string
  *
  * Return: void
  */
@@ -29,11 +29,11 @@ void _print(char *str, int l)
 }
 
 /**
- * mul - multiplies a char with a string and places the answer into dest
- * @n: char to multiply
- * @num: string to multiply
- * @num_index: last non NULL index of num
- * @dest: destination of multiplication
+ * mul - multi-plies a char and a string places answer into dest
+ * @n: char to multi
+ * @num: string to mult
+ * @num_index: final non NULL index of num
+ * @dest: dest of results
  * @dest_index: highest index to start addition
  *
  * Return: pointer to dest, or NULL on failure
@@ -64,7 +64,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	return (dest);
 }
 /**
- * check_for_digits - checks the arguments to ensure they are digits
+ * check_for_digits - checks the arg make sure they are digits
  * @av: pointer to arguments
  *
  * Return: 0 if digits, 1 if not
@@ -85,9 +85,9 @@ int check_for_digits(char **av)
 }
 
 /**
- * init - initializes a string
+ * init - init a string
  * @str: sting to initialize
- * @l: length of strinf
+ * @l: string length
  *
  * Return: void
  */
@@ -101,8 +101,8 @@ void init(char *str, int l)
 }
 
 /**
- * main - multiply two numbers
- * @argc: number of arguments
+ * main - multiplayer two numbers
+ * @argc: number of args
  * @argv: argument vector
  *
  * Return: zero, or exit status of 98 if failure
