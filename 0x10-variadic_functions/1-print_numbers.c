@@ -2,21 +2,21 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_numbers - function that prints numbers.
- * @n: resepresents the number of arguments
- * @separator: resepresents the seperator b/w the numbers
+ * print_numbers - prints function numbers.
+ * @n: resepresents no of arguments
+ * @separator: resepresents the seperato
  * Return: Always 0.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	/* creating va_list to store the variable argument list */
+	/* va_list store the var list */
 	va_list my_nums;
 	unsigned int count;
 
-	/* init valist for the number of arguments */
+	/* init valist for arguments number */
 	va_start(my_nums, n);
 
-	/* loop through/access all arguments stored in the valist */
+	/* loop via all arguments stor */
 	for (count = 0; count < n; count++)
 	{
 		printf("%d", va_arg(my_nums, unsigned int));
