@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * first - function executed before main
+ * first - function print nd executed before main
  * Return: no return.
  */
 
