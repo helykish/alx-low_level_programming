@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * add_nodeint - adds a node to the beginning of a linked list
- * @head: pointer to the head of the list
- * @n: integer to be used as content
+ * add_nodeint - add to the beginnng of a linked list
+ * @head: pointer to head of list
+ * @n: integer used as content
  *
  * Return: address of the newly added node
  */
