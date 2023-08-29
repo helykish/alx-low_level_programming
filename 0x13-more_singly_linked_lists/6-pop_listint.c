@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * pop_listint - deletes the head node
+ * pop_listint - func deletes the head node
  * @head : pointer to the head of the linked list
  * Return: head node's data (n)
  *         or 0 - if the linked list is empty
