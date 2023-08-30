@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * free_listp2 - frees a linked list
- * @head: head of a list.
+ * free_listp2 - func tht frees linked list
+ * @head: head of alist.
  *
  * Return: no return.
  */
@@ -24,10 +24,10 @@ void free_listp2(listp_t **head)
 }
 
 /**
- * free_listint_safe - frees a linked list.
+ * free_listint_safe - funCfrees a linked list.
  * @h: head of a list.
  *
- * Return: size of the list that was freed.
+ * Return: size of list freed.
  */
 size_t free_listint_safe(listint_t **h)
 {
