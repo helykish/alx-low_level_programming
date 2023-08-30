@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * free_listp - frees a linked list
- * @head: head of a list.
+ * free_listp - func thT frees a linked list
+ * @head: head of  list.
  *
- * Return: no return.
+ * Return: nothing.
  */
 void free_listp(listp_t **head)
 {
@@ -24,10 +24,10 @@ void free_listp(listp_t **head)
 }
 
 /**
- * print_listint_safe - prints a linked list.
+ * print_listint_safe - func that print alinked list.
  * @head: head of a list.
  *
- * Return: number of nodes in the list.
+ * Return: nodes no. in the list.
  */
 size_t print_listint_safe(const listint_t *head)
 {
