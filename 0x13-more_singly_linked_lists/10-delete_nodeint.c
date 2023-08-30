@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
- * delete_nodeint_at_index - deletes the node by a given
+ * delete_nodeint_at_index - func that delete node by a given
  *                           index of a linked list
- * @head : pointer to the head of the list
+ * @head : pointer to head of list
  * @index: index of the node to be deleted
  *         (indices starting at 0)
- * Return: 1 - if function succeeds,
- *        -1 - if function fails
+ * Return: 1 - func succeeds,
+ *        -1 - func fails
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
