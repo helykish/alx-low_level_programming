@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * reverse_listint - reverses a linked list.
+ * reverse_listint -  func that reverse linked list.
  * @head: head of a list.
  *
  * Return: pointer to the first node.
