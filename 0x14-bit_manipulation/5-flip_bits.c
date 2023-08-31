@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * flip_bits - counts the number of bits to change
- * to get from one number to another
+ * flip_bits - func count no. of bits to change
+ * to get frm 1 number to another
  * @n: first number
  * @m: second number
  *
