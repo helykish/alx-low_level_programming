@@ -6,11 +6,11 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - reads a text file and prints it to the POSIX standard output
- * @filename: name of the file to read
- * @letters: number of letters it should read and print
+ * read_textfile - func read and prints to POSIX stdout
+ * @filename: func file name 2 read
+ * @letters: no of strings to read and print
  *
- * Return: actual number of letters it could read and print
+ * Return: each letters no. read and print
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
