@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _pow - calculates (base ^ power)
+ * _pow - calc (base ^ power)
  * @base: base of the exponent
  * @power: power of the exponent
  *
