@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 
 /**
- * shash_table_create - creates a shash table with a given size
+ * shash_table_create - Creates a sorted hash table
  *
- * @size: size of the shash table
- * Return: the created shash table, or NULL if function fails
+ * @size: The size of new sorted hash table
+ * Return: the new created hash table, or NULL if function fails
  */
 shash_table_t *shash_table_create(unsigned long int size)
 {
@@ -35,9 +35,9 @@ shash_table_t *shash_table_create(unsigned long int size)
  * add_n_shash - adds a node at the beginning of a shash at a given index
  *
  * @h: head of the shash linked list
- * @key: key of the shash
+ * @key: key of the hash
  * @value: value to store
- * Return: created node
+ * Return: created linked node
  */
 shash_node_t *add_n_shash(shash_node_t **h, const char *key, const char *value)
 {
@@ -73,9 +73,9 @@ shash_node_t *add_n_shash(shash_node_t **h, const char *key, const char *value)
 /**
  * add_i_shash - adds a node on the DLL of the shash table
  *
- * @ht: pointer to the table
+ * @ht: pointer to the hash table
  * @new: new node to add
- * Return: no return
+ * Return: void
  */
 void add_i_shash(shash_table_t *ht, shash_node_t *new)
 {
@@ -123,10 +123,10 @@ void add_i_shash(shash_table_t *ht, shash_node_t *new)
 /**
  * shash_table_set - adds a hash (key, value) to a given shash table
  *
- * @ht: pointer to the shash table
- * @key: key of the shash
+ * @ht: pointer tohash table
+ * @key: key hash table
  * @value: value to store
- * Return: 1 if successes, 0 if fails
+ * Return: 1 if successes, otherwise fails
  */
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
@@ -154,9 +154,9 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 /**
  * shash_table_get - retrieves a value associated with a key
  *
- * @ht: pointer to the shash table
- * @key: key of the shash
- * Return: value of the shash.
+ * @ht: pointer to hash table
+ * @key: key of the hash
+ * Return: value hash table.
  */
 char *shash_table_get(const shash_table_t *ht, const char *key)
 {
@@ -184,9 +184,9 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 }
 
 /**
- * shash_table_print - prints the keys and values of the shash table
+ * shash_table_print - create the keys and values of the shash table
  *
- * @ht: pointer to the shash table
+ * @ht: pointer to hash table
  * Return: no return
  */
 void shash_table_print(const shash_table_t *ht)
