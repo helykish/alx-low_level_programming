@@ -152,7 +152,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 }
 
 /**
- * shash_table_get - funct  retrieves a value associated with a key
+ * shash_table_get - retrieves a value associated with a key
  *
  * @ht: pointer to the shash table
  * @key: key of the shash
@@ -184,10 +184,10 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 }
 
 /**
- * shash_table_print - func that prints the keys plus values of the shash table
+ * shash_table_print - prints the keys and values of the shash table
  *
- * @ht: pointer to shash table
- * Return: void
+ * @ht: pointer to the shash table
+ * Return: no return
  */
 void shash_table_print(const shash_table_t *ht)
 {
@@ -213,7 +213,7 @@ void shash_table_print(const shash_table_t *ht)
 }
 
 /**
- * shash_table_print_rev - func that prints the keys plus values of the shash table
+ * shash_table_print_rev - prints the keys and values of the shash table
  * in reverse
  *
  * @ht: pointer to the shash table
@@ -243,7 +243,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 }
 
 /**
- * shash_table_delete - func that del a shash table
+ * shash_table_delete - deletes a shash table
  *
  * @ht: pointer to the shash table
  * Return: no return
